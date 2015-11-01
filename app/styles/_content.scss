@@ -1,6 +1,17 @@
-.jumbotron {
-	h1 {
-	color: $brand-danger;
-	}
+#video-wrapper {
+	border: 2px dotted black;
+	padding: 1em;
+	margin: 1em;
+	height: 400px;
+    img {
+    border: 1px solid black;
+    }
 }
 
+.h4 {
+	color: red;
+}
+
+#previousVideo li {
+	list-style-type: none;
+}

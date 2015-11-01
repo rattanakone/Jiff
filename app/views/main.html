@@ -1,20 +1,26 @@
-<div class="jumbotron">
-  <h1>Watch a Jiff video!</h1>
+<div class="jumbotron" id="jumbomain">
+  <h1>Watch Jiff</h1>
 
-  <div class="video-wrapper">
-
-
-  <div ng-bind-html="currentVideo"></div>
-  	
-
-  </div>
   <br>
 
-  <p><a class="btn btn-lg btn-success" ng-click="getRandomVideo()">Get a random video of Jiff!<span class="glyphicon glyphicon-ok"></span></a></p>
+  <div class="embed-responsive embed-responsive-4by3" id="video-wrapper">
 
+  <div ng-bind-html="currentVideo"></div>
+  <br>
+  <br>
+  <h2>Click the button for a Jiff YouTube video!</h2>
+ 
+  
+  <img src="../images/jiff.jpg">
+
+  	
+  </div>
+  <br>
+  <p><a class="btn btn-lg btn-success" ng-click="getRandomVideo()">Random Jiff<span class="glyphicon glyphicon-ok"></span></a></p>
+  <h4 class="h4">WARNING: <span class="glyphicon glyphicon-heart"></span> Cuteness overload <span class="glyphicon glyphicon-heart"></span></h4>
  
 
 </div>
 
- <!--<div id="previousVideo" ng-bind-html="previousVideo"></div>-->
+ <div id="previousVideo" ng-bind-html="previousVideo" align="center"></div>
 
